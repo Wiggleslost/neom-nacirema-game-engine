@@ -1,0 +1,951 @@
+This is the current notes about the previous missing files, the Core ZIP records the following information
+
+Changelog:
+
+###Scripts version 2463### / stable / Date: 18.01.2026 / Download update size: 4 megabytes
+* fixed an issue where background file downloads would continue even if the download was explicitly canceled
+* added a mirror toggle button for downloading PortProton components and then resuming the file download
+
+###Scripts version 2462### / stable / Date: 16.01.2026 / Download update size: 300 megabytes
+* cumulative update of stable version of PortProton scripts
+
+###Scripts version 2461### / Date: 16.01.2026 / Download update size: 4 megabytes
+* fixed creating prefix backup
+* added path selection for the .exe file if there is no shortcut (when launched from https://ppdb.linux-gaming.ru)
+
+###Scripts version 2460### / Date: 12.01.2026 / Download update size: 4 megabytes
+* the "EMULATORS" tab is disabled by default (can be enabled in the global settings)
+* audio driver switching has been moved from the global settings (user.conf) to the individual game settings
+* translations have been updated
+
+###Scripts version 2459### / Date: 12.01.2026 / Download update size: 4 megabytes
+* added the ability to apply settings and launch the game from the report page at https://ppdb.linux-gaming.ru
+* added replacement of your username with xuser when creating a log
+* fixed path detection when launching .ppdb files if there is more than one executable file or the name contains spaces
+* uses an empty dxvk.conf for optiscaler (replaces the default one in PP)
+
+###Scripts version 2458### / Date: 11.01.2026 / Download update size: 4 megabytes
+* disabled DXVK_HUD display in-game when creating a log
+* added the ability to launch .ppdb game settings files (for future integration with https://ppdb.linux-gaming.ru)
+* added display of the URL to the settings file (if downloaded from https://ppdb.linux-gaming.ru)
+
+###Scripts version 2457### / Date: 10.01.2026 / Download update size: 60 megabytes
+* updated optiscaler to version 0.9.0-pre8 (thanks to @eljeyna)
+
+###Scripts version 2456### / Date: 09.01.2026 / Download update size: 230 megabytes
+* updated PROTON_LG to version "10-28"
+* updated versions:
+    - DXVK_NEW_VER "2.7.1-355" (shared with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4981" (shared with vkd3d-shader)
+* updated DOTNET prefix (750 MB)
+* disabled frame limiting when the "USE LS FRAMEGEN" frame generator is enabled (use the in-game frame limiter)
+* minor CLI fixes for PortProtonQT (thanks to Boria138)
+* fixed Windows Steam - uses WINE_LG by default
+* disabled shortcut creation for uninstall.exe
+
+###Scripts version 2455### / stable / Date: 05.12.2025 / Download update size: 190 megabytes
+* updated WINE_LG to version "10-20"
+* fixed the issue where time spent in-game was disabled
+* additional CLI fixes for PortProtonQT (thanks to Boria138)
+
+###Scripts version 2454### / stable / Date: 09.11.2025 / Download update size: 4 megabytes
+* HOTFIX: Fixed Epic Games and EOS installation (to apply the fix, run the Epic Games auto-installer)
+
+###Scripts version 2453### / stable / Date: 07.11.2025 / Download update size: 380 megabytes
+* cumulative update of stable version of PortProton scripts
+
+###Scripts version 2452### / Date: 07.11.2025 / Download update size: 230 megabytes
+* Updated PROTON_LG to version "10-25"
+* Updated versions:
+    - DXVK_NEW_VER "2.7.1-207" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4853" (with vkd3d-shader)
+
+###Scripts version 2451### / Date: 01.11.2025 / Download update size: 4 megabytes
+* updated DOTNET prefix
+* minor CLI fixes for PortProtonQT (thanks to Boria138)
+
+###Scripts version 2450### / Date: 31.10.2025 / Download update size: 4 megabytes
+* PROTON_LG_9-12 is used by default for GOG Launcher (fixes game installation in the launcher)
+* added the PW_EMULS variable (if set to 0, the emulators tab is removed)
+
+###Scripts version 2449### / Date: 30.10.2025 / Download update size: 230 megabytes
+* Updated PROTON_LG to version "10-24"
+* Updated versions:
+    - DXVK_NEW_VER "2.7.1-204" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4836" (with vkd3d-shader)
+* fixed theme color scheme switching for PortProton (thanks to Htylol)
+* fixed installing dotnet to a clean prefix (thanks to AlekV)
+* added new CLI functions for PortProtonQT (thanks to Boria138 and Htylol)
+
+
+###Scripts version 2448### / stable / Date: 23.10.2025 / Download update size: 380 megabytes
+* cumulative update of stable version of PortProton scripts
+
+###Scripts version 2447### / Date: 20.10.2025 / Download update size: 230 megabytes
+* updated PROTON_LG to version "10-21"
+* updated versions:
+    - DXVK_NEW_VER "2.7.1-190" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4818" (with vkd3d-shader)
+* fixed installation of BattleNET when using PROTON_LG
+    - if you have problems with the launcher, just restart the auto-installation
+
+###Scripts version 2446### / Date: 19.10.2025 / Download update size: 380 megabytes
+* updated WINE_LG to version "10-17"
+* updated PROTON_LG to version "10-20"
+* updated versions:
+    - DXVK_NEW_VER "2.7.1-172" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4801" (with vkd3d-shader)
+* minor CLI fixes (thanks to Boria138)
+
+###Scripts version 2445### / stable / Date: 10.10.2025 / Download update size: 4 megabytes
+* added all WINE settings to CLI mode
+* added automatic installations in CLI mode
+* PROTON_LG is used by default for setup, install, and .msi files
+* fixed image blur in some games (default dpi = 96)
+* temporarily unlocked all 3D_APIs for any video card by default
+
+###Scripts version 2444### / stable / Date: 30.09.2025 / Download update size: 380 megabytes
+* updated WINE_LG to version "10-15" (fixed ESYNC and FSYNC)
+* updated PROTON_LG to version "10-17"
+* updated versions:
+    - DXVK_NEW_VER "2.7.1-146" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4772" (with vkd3d-shader)
+* added falcond to the gamemode conflict list (thanks to Boria138)
+
+###Scripts version 2443### / stable / Date: 19.09.2025 / Download update size: 4 megabytes
+* the "Yabause" emulator has been removed
+* the "Goose Goose Duck" game has been removed
+* the "Fractured Online" game has been removed (the game has become a paid game)
+* the "Battle of Space Raiders" game has been removed (the game has become a paid game)
+* the installation and operation of the following games has been fixed (requires restarting the auto-installer):
+    - "OSU"
+    - "Contract Wars"
+    - "Farlight 84"
+    - "Doomsday"
+    - "ExoTanks"
+    - "Ankama Launcher"
+    - "Guild Wars 2"
+    - "Rockstar Games Launcher"
+
+###Scripts version 2442### / stable / Date: 18.09.2025 / Download update size: 4 megabytes
+* corrective update to the stable PortProton branch
+* fixed opening settings for Ubuntu-based systems (thanks to zorn-v)
+* fixed detection of Unity-based games (thanks to Htylol)
+* added the ability to download PROTON-CACHYOS v2 and v4 (thanks to Boria138)
+* added the ability to override all variables related to shader caching
+* reverted the "USE DXVK HDR" setting (displayed even on X11 to enable HDR on SteamDeck)
+
+###Scripts version 2441### / stable / Date: 15.09.2025 / Download update size: 380 megabytes
+* cumulative update of stable version of PortProton scripts
+
+###Scripts version 2440### / Date: 03.09.2025 / Download update size: 380 megabytes
+* updated WINE_LG to version "10-14"
+* updated PROTON_LG to version "10-15"
+* updated versions:
+    - DXVK_NEW_VER "2.7-46" (with dxvk-nvapi)
+    - VKD3D_NEW_VER "1.1-4707" (with vkd3d-shader)
+* improved and optimized video card and driver selection functions (thanks to Htylol)
+* Epic Games Launcher is installed and works again on new PROTON_LG versions (to apply the fix, run autoinstall)
+* updated VK Play installation link (thanks to Muzifs)
+* fixed Anomaly Zone autoinstallation (thanks to Muzifs)
+* fixed Azahar autoinstallation (thanks to Muzifs)
+* fixed Goose Goose Duck autoinstallation (thanks Muzifs)
+* improved Steam cover download function (thanks alex2844)
+* improved main monitor detection on Hyprland (thanks Boria138)
+
+###Scripts version 2439### / Date: 31.07.2025 / Download update size: 4 megabytes
+* improved functions for checking and selecting video cards (thanks to Htylol)
+* added blocking of 3D API versions not supported by the video card or driver (thanks to Htylol)
+* added the ability to forcefully unblock all 3D API in global settings (thanks to Htylol)
+* fixed amdvlk and amdgpupro driver selection (thanks to Htylol)
+* fixed launching OpenGL games on NVIDIA video cards (thanks to Htylol)
+* other small improvements and script fixes
+
+###Scripts version 2438### / Date: 26.07.2025 / Download update size: 4 megabytes
+* fixed locale detection for flatpak version of PortProton (thanks to Htylol)
+* updated OPTISCALER to v02-0.7.7-pre12 (thanks to @eljeyna)
+* more games working with OPTISCALER
+
+###Scripts version 2437### / Date: 25.07.2025 / Download update size: 4 megabytes
+* FSYNC and ESYNC are disabled by default
+* WINE_LG is used by default for all Sony games
+* added a block on enabling USE_LS_FRAME_GEN if the GLIBC version in the system is lower than 2.38
+* additional interface optimizations were made (thanks to Htylol)
+* work continued on improving the 3D Api selection functions (thanks to Htylol)
+
+###Scripts version 2436### / Date: 24.07.2025 / Download update size: 230 megabytes
+* changed DXVK and VKD3D versions for DirectX to Vulkan translation (thanks to Htylol):
+    - The newest ones work only with "MESA 25+" or "NVIDIA 550.54.14+" drivers
+    - Stable ones work with any drivers, provided that the video card supports Vulkan version "1.3+"
+    - Sarek works with any video card that supports Vulkan version "1.1+"
+* PROTON_LG updated to version "10-10" (with NTSYNC support)
+* accelerated opening of the list of third-party WINE versions (thanks to Boria138)
+* added to the lists of third-party WINE all WOW64 versions from Kron4ek and x86_64_v3 builds from CachyOS (thanks to Boria138)
+
+###Scripts version 2435### / stable / Date: 23.07.2025 / Download update size: 380 megabytes
+* cumulative update of stable version of PortProton scripts
+* removed tab for downloading third-party versions of WINE-GE-GUSTOM (outdated versions of WINE)
+
+###Scripts version 2434### / Date: 22.07.2025 / Download update size: 4 megabytes
+* fixed detection of NVIDIA RTX video cards and automatic enabling of NVAPI and Ray Tracing
+* fixed DLSS on NVIDIA RTX video cards (requires resetting PP settings for the game)
+
+###Scripts version 2433### / Date: 21.07.2025 / Download update size: 4 megabytes
+* fixed Epic Games Launcher (requires restarting autoinstallation)
+* added convenient (not inverse) logic for enabling ESYNC, FSYNC and NTSYNC
+* dgVoodoo2 libraries are downloaded only when using them (thanks to Htylol)
+* fixed MANGOHUD settings menu when ppdb file is missing
+* wine sync display switch added to MANGOHUD settings menu (enabled by default)
+* other minor improvements and script fixes (thanks to Boria138 and Htylol)
+
+###Scripts version 2432### / Date: 18.07.2025 / Download update size: 4 megabytes
+* when using USE_OPTISCALER:
+    - fixed nvidia reflex
+    - enabled frame generator by default
+    - general performance improvement
+* updated lsfg-vk frame generator
+* fixed flatpak sleep blocking in Fedora (thanks to Htylol)
+
+###Scripts version 2431### / Date: 18.07.2025 / Download update size: 4 megabytes
+* added USE_OPTISCALER setting to enable DLSS and frame generation on any video cards
+    Thanks to @EnDiMuR and @eljeyna for additional settings and useful information:
+    https://telegra.ph/Instrukciya-po-ustanovke-moda-DLSS-Frame-Generation-02-01
+* removed obsolete settings: USE_FAKE_DLSS and USE_FAKE_DLSS_3 (they are completely replaced by USE_OPTISCALER)
+* updated lsfg-vk frame generator (USE_LS_FRAME_GEN in PP settings when starting the game)
+* added sleep mode lock for flatpak version of PortProton (thanks to Boria138)
+* added new setting to enable NTSYNC (NO_NTSYNC in PP settings when starting the game)
+* other small improvements and script fixes (thanks to Boria138 and zorn-v)
+
+###Scripts version 2430### / Date: 15.07.2025 / Download update size: 185 megabytes
+* when using USE_LS_FRAME_GEN the smoothness of games is increased and the number of artifacts is reduced
+* updated WINE_LG to version "10-12"
+
+###Scripts version 2429### / Date: 14.07.2025 / Download update size: 4 megabytes
+* fixed MANGOHUD in flatpak version of PortProton
+* fixed frame generation (USE_LS_FRAME_GEN) in flatpak version of PortProton
+* fixed detection of number of logical cores of processor if there are less than 4 (thanks to Htylol)
+* added ability to download Proton-EM (thanks to Boria138)
+* other small script improvements (thanks to Boria138 and Htylol)
+
+###Scripts version 2428### / Date: 13.07.2025 / Download update size: 4 megabytes
+* experimental: added frame generation using LSFG-VK (USE_LS_FRAME_GEN in PP settings when playing the game)
+
+###Scripts version 2427### / Date: 04.07.2025 / Download update size: 380 megabytes
+* updated WINE_LG to version "10-11"
+* updated PROTON_LG to version "10-8" (repackaging from GE-Proton10-8)
+* updated versions:
+    - DXVK_GIT "2.6.1-368" (together with dxvk-nvapi)
+    - VKD3D_GIT "1.1-4655" (together with vkd3d-shader)
+* added division of temporary directory for different users
+* fixed updating scripts and downloading archives in gamescope sessions with native PortProton
+
+###Scripts version 2426### / Date: 04.07.2025 / Download update size: 4 megabytes
+* expanding integration with PPQT (alpha)
+
+###Scripts version 2425### / stable / Date: 02.07.2025 / Download update size: 4 megabytes
+* updated Spanish translation (thanks to BlackSnaker)
+* improved NVIDIA RTX GPU detection (thanks to Boria138)
+
+###Scripts version 2424### / stable / Date: 01.07.2025 / Download update size: 380 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2423### / Date: 01.07.2025 / Download update size: 4 megabytes
+* added new version "WINE_HYP_10-10" to fix launch of game "Genshin Impact"
+(to apply fix just use autoinstall HoYoPlay again)
+
+###Scripts version 2422### / Date: 25.06.2025 / Download update size: 4 megabytes
+* fixed work of games in full screen when using native wayland
+* fixed work of third-party versions of WINE when using native wayland
+* quieter mode when using the variable START_FROM_STEAM="1"
+
+###Scripts version 2421### / Date: 24.06.2025 / Download update size: 380 megabytes
+* with new versions of WINE and PROTON, launch under native Wayland has been fixed
+* WINE_LG has been updated to version "10-10-1" (added support for native Wayland)
+* PROTON_LG has been updated to version "10-4" (repackaging from GE-Proton10-4)
+* updated versions:
+    - DXVK_GIT "2.6.1-255" (together with dxvk-nvapi)
+    - VKD3D_GIT "1.1-4591" (together with vkd3d-shader)
+* added a setting to enable HDR in the game (only for Wayland)
+* added automatic creation of shortcuts when unpacking a prefix from a backup copy (only with the START_FROM_STEAM="1" variable)
+
+###Scripts version 2420### / Date: 14.06.2025 / Download update size: 4 megabytes
+* updated icons in the autoinstall section (thanks to if984)
+* improved functions for selecting 3D Api and their additional settings (thanks to Htylol)
+* when adding the variable USE_ONLY_LG_RU="1" to user.conf, PortProton updates only from linux-gaming.ru servers
+* other small script improvements (thanks to Boria138, alex2844, Htylol)
+
+###Scripts version 2419### / stable / Дата: 24.05.2025 / Download update size: 185 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2418### / Date: 24.05.2025 / Download update size: 4 megabytes
+* сompleted adding full support for third-party GE-Proton versions 10 and above
+
+###Scripts version 2417### / Date: 20.05.2025 / Download update size: 4 megabytes
+* fixed of third-party versions of DXVK and VKD3D for GE-Proton10+ (thanks to Htylol)
+* fixed of GSTREAMER (playing videos) on GE-Proton10+
+
+###Scripts version 2416### / Date: 17.05.2025 / Download update size: 4 megabytes
+* fixed translation generation (thanks to Htylol)
+* added the ability to download Sarek Proton (thanks to Boria138)
+* when using third-party versions of PROTON, DXVK and VKD3D are used, which are supplied with them (thanks to Htylol)
+
+###Scripts version 2415### / Date: 07.05.2025 / Download update size: 4 megabytes
+* fixed installation of libraries added to the settings when starting the game
+
+###Scripts version 2414### / Date: 07.05.2025 / Download update size: 184 megabytes
+* updated WINE_LG to version "10-7"
+* removed the fix for entering the game "Genshin Impact" (no longer required)
+* updated the installation of GOG Launcher (thanks to Vekt0R)
+* added detection of NVIDIA RTX 50XX video cards (thanks to Boria138)
+* added a setting for binding the game to the cores of one NUMA node, for example, on Intel Xeon (thanks to Boria138)
+* added scripts for installing windows emulators Azahar, bsnes, melonDS (thanks to if984)
+* updated scripts for installing Crossout, PPSSPP, RetroArch, ePSXe, FCEUX (thanks to if984)
+
+###Scripts version 2413### / Date: 19.04.2025 / Download update size: 4 megabytes
+* fixed the start of the game "World of Sea Battle"
+* fixed errors related to libraries "ICU* .DLL"
+
+###Scripts version 2412### / Date: 14.04.2025 / Download update size: 4 megabytes
+* temporary fixes of the entrance to the game "Genshin Impact" (auto shutdown and connection to the network before launching the game - does not work in Flatpak)
+
+###Scripts version 2411### / stable / Date: 11.04.2025 / Download update size: 280 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2410### / Date: 11.04.2025 / Download update size: 4 megabytes
+* fixed installation/update for "Epic Games Launcher"
+* fixed disabling of extra frame for "HoYoPlay" and "Crossout" launchers
+
+###Scripts version 2409### / Date: 08.04.2025 / Download update size: 380 megabytes
+* updated WINE_LG to version "10-5"
+* updated container library package: libs_v53
+    - pressure-vessel 0.20250122.0
+    - steam-runtime-sniper 3.0.20250210.116596
+* improved fix for new wine versions by Kron4ek (need to delete and re-download the required wine version)
+* additional improvements to the tray function (thanks to Htylol)
+* added a unified condition for better detection of installation files instead of Setup.ppdb (thanks to Htylol)
+* removed the global settings button from the menu when starting the game
+
+###Scripts version 2408### / Date: 08.04.2025 / Download update size: 4 megabytes
+* fixed the work of new versions of Wine from Kron4ek
+* fixed settings file for the game "Kingdom Come: Deliverance II"
+
+###Scripts version 2407### / Date: 07.04.2025 / Download update size: 250 megabytes
+* PROTON_LG updated to version "9-27"
+* updated versions:
+    - DXVK_GIT "2.6-65" (together with dxvk-nvapi)
+    - VKD3D_GIT "1.1-4511" (together with vkd3d-shader)
+* STEAM_APP_ID from ppdb is used to determine SteamAppId, if it is missing, then steam_appid (and similar) is searched for in the game directory (thanks to alex2844)
+* interface translation functions are improved (thanks to Htylol)
+* tray operation is fixed for systems using "dash" (thanks to Boria138)
+
+###Scripts version 2406### / stable / Date: 22.03.2025 / Download update size: 4 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2405### / Date: 20.03.2025 / Download update size: 4 megabytes
+* USE_GALLIUM_ZINK is disabled by default (breaks some launchers, with the example of "Black Desert Online")
+* USE_GALLIUM_NINE returned and added to additional settings
+
+###Scripts version 2404### / Date: 20.03.2025 / Download update size: 4 megabytes
+* fixed license display
+* fixed the work of the game "Eve Online" (to use correction, use the autoinstalling Eve Online from Portproton)
+* updated installer for "World of Sea Battle"
+
+###Scripts version 2403### / stable / Date: 18.03.2025 / Download update size: 200 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2402### / Date: 12.03.2025 / Download update size: 15 megabytes
+* minor fix for global settings menu (user.conf) (thanks Htylol)
+* updated versions:
+    * DXVK_GIT "2.5.2-1" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4326" (shared with vkd3d-shader)
+
+###Scripts version 2401### / Date: 07.03.2025 / Download update size: 4 megabytes
+* HOTFIX for global settings menu (user.conf) by Htylol
+
+###Scripts version 2400### / Date: 07.03.2025 / Download update size: 4 megabytes
+* global settings menu (user.conf) has been brought to a uniform appearance (thanks Htylol)
+* dark theme for global settings menu (user.conf) has been fixed (thanks Htylol)
+
+###Scripts version 2399### / Date: 06.03.2025 / Download update size: 4 megabytes
+* added default sorting of applications by recent launches (thanks Htylol)
+* added script recovery for steam, when adding the shortcut to the steam library again (thanks alex2844)
+
+###Scripts version 2398### / Date: 05.03.2025 / Download update size: 4 megabytes
+* fixed the error of extra downloading PROTON_LG from the download menu of other WINE versions
+* fixed and improved the functions of PortProton integration with Steam (thanks to alex2844)
+
+###Scripts version 2397### / Date: 05.03.2025 / Download update size: 4 megabytes
+* fixed icons for autosearch shortcut after using setup.exe (thanks to Htylol)
+* added display of time spent in the game in hours and minutes, can be switched or turned off in global settings (thanks to Htylol)
+
+###Scripts version 2396### / Date: 04.03.2025 / Download update size: 4 megabytes
+* fixed exiftool operation in flatpak version of PortProton (thanks to Boria138)
+* fixed extra exiftool launches when switching from game menu to main menu and back (thanks to Htylol)
+* added "GST_DEBUG=ERROR" for debug mode
+
+###Scripts version 2395### / Date: 28.02.2025 / Download update size: 190 megabytes
+* updated WINE_LG to version "10-1"
+* fixed MANGOHUD for OpenGL in flatpak version of PortProton (thanks to Htylol and Boria138)
+* runtime for flatpak version of PortProton updated to version 24.08 (thanks to Boria138)
+* added/updated settings files for games:
+    - Kingdom Come Delivery (thanks Mels)
+    - GTA Vice City Nextgen Edition (thanks litcrit)
+    - Need For Speed - Underground 2 (thanks maximus)
+    - Need for Speed - Carbon (thanks maximus)
+    - Need for Speed - Most Wanted (thanks maximus)
+
+###Scripts version 2394### / Date: 27.02.2025 / Download update size: 195 megabytes
+* updated plugins_v20:
+    - updated mangohud to version 0.8.0
+    - added mf-install for legacy games
+* "Gallium Zink" and "Damavand" moved from "3D API" to the "Basic Settings" (thanks htylol)
+* "Gallium Zink" is used by default with DXVK (thanks htylol)
+
+###Scripts version 2393### / Date: 27.02.2025 / Download update size: 190 megabytes
+* updated plugins_v19:
+    - updated default prefixes
+    - fixed create backup prefixes
+    - added steam ffmpeg libraries
+    - removed nvngx ang gallium_nine
+
+###Scripts version 2392### / Date: 27.02.2025 / Download update size: 4 megabytes
+* automated and removed from manual settings variable: "WINE_LARGE_ADDRESS_AWARE"
+* GUI_DISABLED_CS disables all loading logo (with the exception of prefix update)
+* fixed auto-installation "Guild Wars 2"
+
+###Scripts version 2391### / Date: 26.02.2025 / Download update size: 4 megabytes
+* returned and fixed the LSBash function optimizing the launch of PortProton (thanks htylol)
+* fixed LAUNCH_PARAMETERS with backslashes (thanks Boria138)
+* remove all functionality of legacy 3D API: "Gallium Nine"
+* deleted auto-installation Stalker Online (there is no support from anticheat from the developers of the game)
+
+###Scripts version 2390### / Date: 23.02.2025 / Download update size: 4 megabytes
+* added information that you can not use FAKE_DLSS_3 in multiplayer games
+* added individual dxvk.conf file using FAKE_DLSS_3 to replace the video card in games on Nvidia RTX 4090
+* added the ability to download "Cachyos Proton" (thanks Boria138)
+* improved PortProton integration functions with Steam (thanks Alex2844):
+    - added the ability to use SteamAppId instead of the name of the game that will be added to Steam. Thus, Steam will tighten the layouts of gamepads for games. For USE_STEAMAPPID_AS_NAME (addNonSteamGame) variable is used
+    - added check "StateFlags" and the presence of a section "SharedDepots" in the manifest (listInstalledSteamGames)
+    - added caching of the list of applications received from the Steam server
+
+###Scripts version 2389### / Date: 20.02.2025 / Download update size: 4 megabytes
+* added setting USE_FAKE_DLSS_3 to apply Framegen mods to games by replacing DLSS DLL with FSR3 DLL
+
+###Scripts version 2388### / stable / Date: 04.02.2025 / Download update size: 10 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2387### / Date: 04.02.2025 / Download update size: 10 megabytes
+* updated versions:
+    * DXVK_GIT "2.5.3-31" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4367" (shared with vkd3d-shader)
+* added the ability to replace WINEDEBUG variable arguments in user.conf or .ppdb settings files.
+* improved icon creation functions (thanks to Htylol)
+* added Steam Play support for games supported via PortProton and the selected Proton version on Steam (thanks to alex2844)
+* fixed windows operation, paths in game launch arguments (thanks to Boria138)
+* fixed errors with empty "dist" directory
+
+###Scripts version 2386### / Date: 09.01.2025 / Download update size: 4 megabytes
+* corrected permissions when creating desktop files (thanks to Boria138)
+* fixed the function of rolling back scripts from the archive if there is no scripts_backup directory (thanks to Boria138)
+* added the ability to remove a game from the list in the Steam library using the functionality of changing the shortcut in PortProton (thanks to alex2844)
+* when adding a game to the steam library, a check for the availability of the steamgriddb site has been added (thanks alex2844)
+* added auto-installation of games (thanks to minergenon):
+    * Last Chaos
+    * Fractured Online
+
+###Scripts version 2385### / stable / Date: 29.12.2024 / Download update size: 195 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2384### / Date: 29.12.2024 / Download update size: 12 megabytes
+* improved launch of shortcuts for games from Epic Games Launcher (thanks for the help Htylol)
+* updated versions:
+    * DXVK_GIT "2.5.2-1" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4326" (shared with vkd3d-shader)
+* ATTENTION! Due to problems with access to the steamgriddb website, downloading of covers is temporarily disabled when creating shortcuts for the Steam library
+
+###Scripts version 2383### / Date: 22.12.2024 / Download update size: 4 megabytes
+* added automatic creation of shortcuts for games from Epic Games Launcher (thanks alex2844)
+
+###Scripts version 2382### / Date: 22.12.2024 / Download update size: 270 megabytes
+* updated versions:
+    * DXVK_GIT "2.5.1-35" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4325" (shared with vkd3d-shader)
+* fixed icon error when there are symbols in the example as in osu!.exe (thanks to Htylol and if984)
+* fixed error in providing an icon from .bat for .exe file when changing the shortcut (thanks to Htylol)
+* fix reinstalling PortProton using --reinstall argument (thanks Boria138)
+* improved video card checking function (thanks to Htylol)
+* Vulkan driver selection has been returned for AMD video cards (thanks to Boria138)
+
+###Scripts version 2381### / Date: 01.12.2024 / Download update size: 180 megabytes
+* updated plugins v18 package
+    * gallium nine v0.10
+    * removed unnecessary libraries
+* removed white frame when loading PortProton in SteamDeck game mode
+* updated cover download scripts for Steam (thanks alex2844)
+* added the ability to launch windows shortcuts (thanks alex2844)
+* fixed exit from PortProton when using GUI_DISABLED_CS (thanks zorn-v)
+* added tooltips for launchers and emulators in the AUTO INSTALLATION tab (thanks if984)
+* fixed the login window in GOG on NVIDIA video cards (thanks to Boria138)
+
+###Scripts version 2380### / stable / Date: 17.11.2024 / Download update size: 4 megabytes
+* fixed unpacking of prefixes from backups (thanks to Htylol)
+
+###Scripts version 2379### / stable / Date: 15.11.2024 / Download update size: 4 megabytes
+* HOTFIX - fix for problems related to the lack of sound (pulse by default)
+
+###Scripts version 2378### / stable / Date: 15.11.2024 / Download update size: 4 megabytes
+* minor adjustments to the stable version of PortProton scripts
+
+###Scripts version 2377### / stable / Date: 15.11.2024 / Download update size: 220 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2376### / Date: 14.11.2024 / Download update size: 4 megabytes
+* fixed function for changing global settings (thanks to Htylol)
+
+###Scripts version 2375### / Date: 14.11.2024 / Download update size: 4 megabytes
+* HOTFIX - fixed long launch on Alt p10 after updating scripts 2371 (thanks to Htylol)
+
+###Scripts version 2374### / Date: 12.11.2024 / Download update size: 4 megabytes
+* added support for DLSS 3 for NVIDIA RTX 40XX
+* fixed gamescope (thanks to Htylol)
+* general optimization of scripts (thanks to Htylol)
+
+###Scripts version 2373### / Date: 10.11.2024 / Download update size: 215 megabytes
+* updated PROTON_LG to version "9-19"
+* updated versions:
+    * DXVK_GIT "2.4.1-446" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4271" (shared with vkd3d-shader)
+* fixed the work of the Black Desert Online game with the latest versions of dxvk and vkd3d
+
+###Scripts version 2372### / Date: 09.11.2024 / Download update size: 4 megabytes
+* many script optimizations (thanks to Htylol)
+*reduced recommended scaling
+* added/updated settings files for games:
+    * NieR Automata (thanks to AlbiionDragon)
+    * GTA 4 (thanks to eljeyna and PORTWAINE)
+    * Mortal Kombat XL (thanks Mels)
+    * Red Dead Redemption (thanks SDR)
+* fixed Plarium Play installation (thanks to A_V_Ilin)
+
+###Scripts version 2371### / Date: 08.11.2024 / Download update size: 4 megabytes
+* added auto-detection of application scaling, with the ability to change it in the global PP settings (thanks to Htylol)
+* FUTEX2 is disabled by default (breaks some games)
+* added auto-installation of the Saturn game (thanks to Dervart)
+* added the ability to select a dark/light theme in the global PP settings (thanks to Htylol)
+* significantly improved functions (thanks to Htylol):
+    * registry editor
+    * determining the extension of the launched file
+    * check desktop files
+    * gamescope settings
+* added cursor scale setting for gamescope (thanks to Htylol)
+
+###Scripts version 2370### / Date: 01.11.2024 / Download update size: 215 megabytes
+* updated PROTON_LG to version "9-18"
+* updated versions:
+    * DXVK_GIT "2.4.1-393" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4240" (shared with vkd3d-shader)
+* improved function of adding shortcuts to steam (thanks alex2844)
+* updated --help argument for CLI and added translations (thanks to Htylol)
+* added the ability to change interface scaling in running applications (thanks to Htylol)
+
+###Scripts version 2369### / Date: 31.10.2024 / Download update size: 4 megabytes
+* added automatic installation of games (thanks to Chal55rus):
+    * Chicken Invaders Universe
+    * Eldevin
+    * The World of Nifty Craft
+    * Toribash
+* improved performance of the time spent in the game counter (thanks to Htylol)
+* fixed prefix backups for systems with SELinux (thanks to Htylol and Alek)
+* updated CLI and added arguments: --launch, --edit-db (thanks to Htylol)
+* many other improvements and script optimizations
+
+###Scripts version 2368### / Date: 27.10.2024 / Download update size: 4 megabytes
+* added automatic installation of games (thanks to Chal55rus):
+    * Goose Goose Duck
+    * Miniworld
+    * Toontown Rewritten
+* added disabling sleep mode during the game if gamemode is not used (thanks to Boria138)
+* fixes and optimization of the interface in the Prefix Manager (thanks to Htylol)
+* added the ability to change all shortcuts from the PortProton interface (thanks to Htylol)
+* fixed reset of the time spent in the game counter when moving the game to another directory, or deleting the shortcut (thanks to Htylol)
+* improved function for downloading covers when adding a game to the STEAM library (thanks to Boria138)
+
+###Scripts version 2367### / Date: 25.10.2024 / Download update size: 4 megabytes
+* fixed the use of gamemode in the native version of PortProton
+* continued improvement of the functionality for creating labels and comments (thanks to Htylol)
+* added auto-installation "Elsword" (thanks Chal55rus)
+
+###Scripts version 2366### / Date: 24.10.2024 / Download update size: 4 megabytes
+* auto-installation of "CatsLauncher" was removed due to the move of the game "Front Edge" to "vkPlay"
+* updated version of the tray menu (thanks to Htylol)
+* improved title detection functionality for creating shortcuts (thanks to Htylol)
+* updated Spanish language (thanks Boria138)
+* improved and optimized cover download function for Steam (thanks to Boria138)
+
+###Scripts version 2365### / Date: 23.10.2024 / Download update size: 4 megabytes
+* added translations for using system wine and downloading other versions of wine (thanks to Htylol)
+* improved title detection functionality for creating shortcuts (thanks to Htylol)
+* added check for duplicate shortcuts (thanks to Htylol)
+* added ZINK support for NVK (thanks to Htylol)
+* added automatic installation of games (thanks to Chal55rus):
+    * Broken Ranks
+    * DC Universe Online
+    * The Lord of the Rings Online
+* fixed link in the text when creating a log
+
+###Scripts version 2364### / Date: 19.10.2024 / Download update size: 215 megabytes
+* updated PROTON_LG to version "9-16"
+* updated versions:
+    * DXVK_GIT "2.4.1-194" (shared with dxvk-nvapi)
+    * VKD3D_GIT "1.1-4240" (shared with vkd3d-shader)
+* added auto-installation "Age of Empires Online" (thanks to Chal55rus)
+* added disabling gamemode if ananicy is used (thanks Boria138)
+* adopted improvements from Htylol (thanks): 
+    * items containing: “disabled/enabled” have been translated in all settings
+    * updated version of "YAD" - graphical interface
+    * fixed winecmd in flatpak
+    * other improvements and script optimizations
+    * added PW_MESA_VK_WSI_PRESENT_MODE variable to the main settings (forced vertical sync on and off)
+    * updated list of OpenGL versions for MESA_GL_VERSION_OVERRIDE setting
+* ESYNC is enabled with FSYNC by default, provided that "ulimit -Hn" is greater than or equal to "524288"
+
+###Scripts version 2363### / Date: 14.10.2024 / Download update size: 4 megabytes
+* adopted improvements from Htylol (many thanks): 
+    * updated version of the tray menu
+    * added a counter for time spent in the game (can be enabled in global settings)
+    * frequently launched games are moved to the top of the games list (can be disabled in global settings)
+    * other fixes and interface optimizations
+    * translations updated
+* added automatic installation of games (thanks to Chal55rus):
+    * Exotanks
+    * Tanki Online
+    * Albion Online
+
+###Scripts version 2362### / Date: 04.10.2024 / Download update size: 4 megabytes
+* added animation for loading games in game mode on the Steam Deck
+* added auto-generation of the auto-installation tab (when adding new applications, you no longer need to change the start.sh script)
+* added a minimal check for the correctness of writing scripts for auto-installing applications 
+* updated all auto installation scripts (thanks to Htylol)
+* updated version of "YAD" - graphical interface (thanks to Htylol)
+
+###Scripts version 2361### / Date: 02.10.2024 / Download update size: 4 megabytes
+* added auto-installation "Rise of Flight" (thanks to Chal55rus)
+* added auto-installation of "Arizona Games Launcher" (thanks to Chal55rus)
+* improved script update function (thanks to Htylol)
+
+###Scripts version 2360### / stable / Date: 30.09.2024 / Download update size: 4 megabytes
+* HOTFIX: fixed flatpak detection on some systems (thanks to Htylol)
+
+###Scripts version 2359### / stable / Date: 30.09.2024 / Download update size: 220 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2358### / Date: 30.09.2024 / Download update size: 4 megabytes
+* added for game mode on Steam Deck:
+    * possibility to update PortProton
+    * displaying the process of downloading and unpacking all PortProton packages
+* added auto-installation "Lost Light" (thanks Chal55rus)
+* added auto-installation "GameXP" (thanks Chal55rus)
+
+###Scripts version 2357### / Date: 29.09.2024 / Download update size: 220 megabytes
+* updated PROTON_LG to version "9-15"
+* updated versions:
+    * DXVK_GIT "2.4.1-74"
+    * VKD3D_GIT "1.1-4202"
+* added auto-installation "Star Conflict" (thanks to Chal55rus)
+* added auto-installation "Blood and Soul" (thanks to Chal55rus)
+* updated auto-installation "World of Sea Battle" (thanks valokardin)
+* for "World of Sea Battle" language switching in the game has been fixed and the "DOTNET" prefix is ​​no longer required
+* fixed determination of the selection of settings files when the exe file is a symbolic link
+* added returns to the main menu after canceling the reinstallation/uninstallation of PP, clearing the prefix and uninstalling programs (thanks to Htylol)
+* fixed launch of games/programs when using disabling the graphical interface (GUI_DISABLED_CS)
+
+###Scripts version 2356### / stable / Date: 28.09.2024 / Download update size: 4 megabytes
+* fixed work in steam and ingame
+
+###Scripts version 2355### / stable / Date: 28.09.2024 / Download update size: 385 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2354### / Date: 28.09.2024 / Download update size: 4 megabytes
+* added return to PortProton menu after using winecfg, winereg, winecmd, winefile (thanks Htylol)
+
+###Scripts version 2353### / Date: 27.09.2024 / Download update size: 4 megabytes
+* optimized auto-installation functions for all games/launchers
+* accelerated initial launch of PortProton (thanks to Htylol)
+* auto-installation of the "CITRA" emulator has been removed
+* updated auto-installation of the "CEMU" emulator
+* installation of the game "Secret World Legends (ENG)" has been returned
+* fixed and updated auto-installation of the "OSU!"
+* improved function for downloading third-party versions of WINE
+* added settings files for games (thanks Mels):
+    * LEGO Star Wars: The Skywalker Saga
+    * God of War Ragnarok
+
+###Scripts version 2352### / Date: 26.09.2024 / Download update size: 4 megabytes
+* added auto-installation of the game "Farlight 84" (thanks to Chal55rus)
+* continued optimization of PortProton functions together with Htylol
+
+###Scripts version 2351### / Date: 25.09.2024 / Download update size: 180 megabytes
+* updated container library package: libs_v52
+* even more optimizations for window switching responsiveness (thanks to Htylol)
+* improved logic for updating scripts (thanks to Htylol)
+
+###Scripts version 2350### / Date: 24.09.2024 / Download update size: 15 megabytes
+* updated versions:
+    * DXVK_GIT "2.4-94"
+    * VKD3D_GIT "1.1-4191"
+* added a translation cache, which greatly improves the responsiveness
+of the interface (thanks to Htylol)
+* fixed launching shortcuts from special. symbols in the title (thanks to Htylol)
+* limited number of characters for shortcut names in the "installed" tab (fixes overly wide menu) (thanks to Htylol)
+* disabled decoration for HoYoPlay launcher (fixes window capacity) (thanks to Boria138)
+* Crossout installation has been moved to a separate prefix and decoration for the launcher has been disabled (corrects the capacity in the window)
+
+###Scripts version 2349### / Date: 18.09.2024 / Download update size: 4 megabytes
+* fixed video driver path forwarding for future versions of ALT Linux (p11)
+
+###Scripts version 2348### / Date: 17.09.2024 / Download update size: 4 megabytes
+* updated versions:
+    * DXVK_GIT "2.4-41"
+    * VKD3D_GIT "1.1-4110"
+
+###Scripts version 2347### / Date: 16.09.2024 / Download update size: 4 megabytes
+* added PW_NO_AUTO_CREATE_SHORTCUT variable to exclude automatic shortcut creation
+* added the ability to reset global user.conf settings (thanks to Htylol)
+* improved function for checking script updates (thanks to Htylol)
+* added CLI argument: "--update" to force checking for updates
+
+###Scripts version 2346### / Date: 14.09.2024 / Download update size: 4 megabytes
+* Fixed bug with long wait for updates
+
+###Scripts version 2345### / Date: 14.09.2024 / Download update size: 4 megabytes
+* fixed automatic closing of the tray after using AUTOINSTALL
+* faster startup when it is not possible to check for updates
+
+###Scripts version 2344### / Date: 13.09.2024 / Download update size: 4 megabytes
+* many thanks to Htylol for this update, everything listed below is his merit :)
+    * added reset settings for mangohud and vkbasalt
+    * fixed mangohud preview if it is disabled
+    * user.conf settings have been moved from the editdb settings and portproton settings,
+    * a separate graphical interface has been made for user.conf, with the ability to launch settings from the main menu and when starting a game/program
+    * added return to the main menu after creating a backup, winetricks, wine download, etc., and added return to the last active tabs
+    * added intermediate returns (to the previous active window)
+    * updated translations (Spanish, Russian)
+    * added the ability to open the game/program directory from the settings tab
+    * fixed the error of incorrect comments for the exe file
+    * minor improvements and optimizations
+
+###Scripts version 2343### / Date: 04.09.2024 / Download update size: 190 megabytes
+* updated PROTON_LG to version "9-12"
+* updated versions:
+    * DXVK_GIT "2.4-37"
+    * VKD3D_GIT "1.1-4167"
+* improved support for flatpak version of PortProton for Alpine Linux (thanks to Boria138)
+* fixed tray for WM: BSPWM (thanks to Htylol)
+* fixed launch of some bat files (thanks to Htylol)
+
+###Scripts version 2342### / stable / Date: 30.08.2024 / Download update size: 385 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2341### / Date: 30.08.2024 / Download update size: 4 megabytes
+* minor improvements to the creation of shortcuts and icons
+* HoYoPlay auto-installation updated (thanks Eljeyna)
+
+###Scripts version 2340### / Date: 27.08.2024 / Download update size: 380 megabytes
+* added the ability for standard installation to the prefix manager 
+(without forced redownload of components)
+* updated PROTON_LG to version "9-11"
+* updated WINE_LG to version "9-12-2"
+* the test WINE_LG_NTSYNC has been updated in the repositories to version "9-13-2"
+* improved function for preparing "DOTNET" and "PROGRAMS" prefixes
+* fixed the need to restart vkPlay after changing the WINE version and updating the prefix
+* added settings files for games (thanks Mels):
+    * Heavy Rain
+    * Beyond Two Souls
+    * Assassins Creed Origins
+
+###Scripts version 2339### / Date: 25.08.2024 / Download update size: 180 megabytes
+* libs_v49 library package updated (sniper container 0.20240820.99315)
+* minor improvements and optimizations (thanks to Htylol)
+
+###Scripts version 2338### / Date: 12.08.2024 / Download update size: 4 megabytes
+* updated lists of contributors in "PORTPROTON SETTINGS" --> "Authors and acknowledgments"
+* added the ability to run .reg files (thanks Boria138)
+* added icons for msi, bat and reg files (thanks to Dervart)
+* fixed GUI alignment for XFCE (thanks to Htylol)
+* added automatic disabling of downloading covers for STEAM if there
+is no access to the covers server
+
+###Scripts version 2337### / Date: 09.08.2024 / Download update size: 4 megabytes
+* fixed GUI alignment on SteamDeck (thanks to Htylol)
+* added .bat file association (thanks to Boria138)
+* added settings file for Vortex Mod Manager (thanks Eljeyna)
+* fixed creation of an extra shortcut for LGC and WGC launchers
+
+###Scripts version 2336### / stable / Date: 08.08.2024 / Download update size: 4 megabytes
+* improved verification of downloaded files
+
+###Scripts version 2335### / stable / Date: 07.08.2024 / Download update size: 4 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2334### / Date: 07.08.2024 / Download update size: 4 megabytes
+* service information has been transferred to pop-up notifications (thanks to Htylol, Xpamych, Dervart)
+* added the ability to use pop-up notifications in flatpak (thanks to Boria138)
+* added the ability to download experimental WINE_LG_NTSYNC
+* added settings files for games (thanks to Eljeyna):
+    * Act of War - Direct Action
+    * Act of War - High Treason 
+
+###Scripts version 2333### / Date: 06.08.2024 / Download update size: 4 megabytes
+* changed the download source from CDN to the project server cloud.linux-gaming.ru (thanks Xpamych)
+
+###Scripts version 2332### / Date: 05.08.2024 / Download update size: 4 megabytes
+* fixed display of icons for renamed shortcuts (thanks to Arta48)
+* general optimization of scripts (thanks to Htylol)
+* added/updated settings files for games:
+    * Star Wars Bounty Hunter (thanks to Eljeyna)
+    * Beyond Divinity (thanks to Alek V and Eljeyna)
+    * Street Fighter V (thanks Mels)
+
+###Scripts version 2331### / Date: 01.08.2024 / Download update size: 4 megabytes
+* fixed downloading of third-party versions of wine registered in the game/program settings file
+* Added audio driver selection to settings (thanks Boria138)
+* added comment for EVE Online (thanks Boria138)
+* improved icon creation functions (thanks to Htylol)
+* improved log creation mode (thanks to Htylol)
+* fixed deletion of shortcuts containing spaces (thanks to Htylol)
+* added/updated settings files for games:
+    * FarCry 4 (thanks Alek V and Mels)
+    * Resident Evil 7: Biohazard (thanks Mels)
+    * Horizon Forbidden West (thanks Mels)
+    * Bright Memory Infinite (thanks Eljeyna)
+    * Lord of The Rings: Battle for MiddleEarth (thanks to user1)
+    * Apollo Justice: Ace Attorney Trilogy (thanks SDR)
+
+###Scripts version 2330### / Date: 30.07.2024 / Download update size: 4 megabytes
+* updated tray based on libayatana-appindicator (thanks to Htylol)
+* added win11 selection to settings (thanks Boria138)
+* improved creation of icons for shortcuts (thanks Boria138)
+* fixed deletion of disks added manually (thanks to Boria138)
+* updated yad version to improve interface (thanks to Htylol)
+* fixed deletion when duplicate shortcuts exist (thanks to Htylol)
+* added settings file for all GamesVoice files (thanks to SDR)
+
+###Scripts version 2329### / Date: 26.07.2024 / Download update size: 4 megabytes
+* created a new tray based on libayatana-appindicator (thanks to Htylol)
+* improved automatic creation of shortcuts by checking "create shortcut" in the installer itself (thanks to Boria138 and Htylol)
+* plugins package updated to version 17
+
+###Scripts version 2328### / Date: 25.07.2024 / Download update size: 4 megabytes
+* updated icon for setup files (thanks to Dervart)
+* fixed interface alignment for KDE
+* added automatic creation of shortcuts by checking "create shortcut" in the installer itself (thanks to Boria138 and Htylol)
+* settings file editor switched to yad (thanks to Htylol)
+
+###Scripts version 2327### / stable / Date: 25.07.2024 / Download update size: 4 megabytes
+* cumulative update to the stable version of PortProton scripts
+
+###Scripts version 2326### / Date: 24.07.2024 / Download update size: 4 megabytes
+* updated README.md (thanks Kazevic)
+* user.conf editor switched to yad (thanks to Htylol)
+* fixed disk mounting in dosdevice (thanks to Boria138)
+* added drive S which always links to the directory with games in STEAM (for easy installing mods in games from the STEAM library)
+
+###Scripts version 2325### / Date: 22.07.2024 / Download update size: 4 megabytes
+* updated Caliber auto-installation
+* fixed Yabause icon display
+* fixed adding icons when creating a shortcut to the steam library (thanks to Boria138)
+* updated gamescope settings window (thanks to Htylol)
+* updated language selection function (thanks to Htylol)
+* fix icon creation on systems using SELinux (thanks to Boria138)
+
+###Scripts version 2324### / Date: 18.07.2024 / Download update size: 4 megabytes
+* updated Russian translation (thanks to Eljeyna)
+
+###Scripts version 2323### / Date: 17.07.2024 / Download update size: 4 megabytes
+* updated Russian translation (thanks to Eljeyna and Alek V)
+* updated function for downloading covers to the STEAM library (thanks to Boria138)
+* added saving the choice where to create a shortcut (thanks to Htylol)
+* added/updated settings files for games (thanks Mels):
+    * Bioshock Remastered,
+    * Bioshock 2 Remastered,
+    * Teenage Mutant Ninja Turtles,
+    * Teenage Mutant Ninja Turtles 2: Battle Nexus,
+    * Alan Wake Remastered
+    * Halo Infinite,
+    * The Matrix: Path of Neo,
+    * Persona 4 Golden,
+    * Dying Light,
+    * Halo Infinite,
+    * RoboCop Rogue City,
+    * Need for Speed ​​- Hot Pursuit 2 (2002),
+    * Resident Evil 4 Remake,
+    * Plague Tale: Requiem,
+    * Dishonored 2
+    * The Witcher 3: Wild Hunt (Nextgen),
+    * A Plague Tale: Innocence,
+    * Far Cry 5 Gold Edition,
+
+* added settings files for games (thanks Eljeyna):
+    * Alone in the Dark (2024),
+    * Animal Well.
+
+###Scripts version 2322### / Date: 16.07.2024 / Download update size: 4 megabytes
+* updated Spanish translation (thanks to BlackSnaker)
+* Russian translation partially updated (thanks to Alek V)
+* added NVAPI file comparison to prevent duplicate copying (thanks to Htylol)
+* updated 3D Api functions for NVIDIA video cards (thanks to Htylol)
+* shortcuts to the STEAM library are created with covers (thanks to Boria138)
+
+###Scripts version 2321### / Date: 15.07.2024 / Download update size: 190 megabytes
+* updated WINE_LG to version "9-12"
+* updated versions:
+    * DXVK_GIT "2.3.1-120"
+    * VKD3D_GIT "1.1-4110"
+* fixed the list of WINE versions if the dist directory is empty (thanks to Htylol)
+* added winetricks translations (thanks to Htylol)
+* added a description of the file system where the game is installed, PortProton and the temporary directory (thanks to Htylol)
+
+###Scripts version 2320### / stable / Date: 15.07.2024 / Download update size: 4 megabytes
+* fixed rare launch issue on SteamOS (thanks to Htylol)
+* added system version detection when using flatpak (thanks to Htylol)
+* added information about the current version of BRANCH to the interface header (thanks to Htylol)
+* minor improvements and optimizations
+
+###Scripts version 2319### Date: 14.07.2024 / Download update size: 4 megabytes
+* added automatic rollback of script version when switching from DEVEL to STABLE
+
+###Scripts version 2318### Date: 14.07.2024 / Download update size: 4 megabytes
+* test DEVEL version
+
+###Scripts version 2317### Date: 14.07.2024 / Download update size: 4 megabytes
+* Added selection of STABLE and DEVEL versions to the PortProton settings interface
+
+###Scripts version 2316### Date: 13.07.2024 / Download update size: 4 megabytes
+* HOTFIX - start on some system
+
+###Scripts version 2315### Date: 12.07.2024 / Download update size: 4 megabytes
+* fixed the display of the PROTON_LG and WINE_LG versions in the absence of a settings file (thanks Htylol)
+* added the ability to run debugging scripts from the terminal: portproton --debug (thanks to Boria138 and Htylol)
+* fixed saving settings when launching shortcuts from the main menu
+* fixed creation of shortcuts after installing the game/app from setup.exe
+
+###Scripts version 2314### Date: 11.07.2024 / Download update size: 4 megabytes
+* HOTFIX - create multiple shortcuts when unpacking a prefix backup
+* fixed the disable of CAS in the vkBasalt menu (0 in the menu is -1 in the variable)
+* fixed the auto-shutdown of the HoYoPlay launcher after the initial installation
+
+###Scripts version 2313### Date: 11.07.2024 / Download update size: 4 megabytes
+* added all gamescope settings to the interface (thanks Htylol)
+* added the experimental ability to run the native version of wine-wayland with a third-party version of wine, which is compiled with this function (thanks Boria138)
+* temporary files have been moved to the /tmp/PortProton directory (thanks Htylol)
+* fixed language switching in games using .ini file (thanks by Eljeyna)
+* Genshin Impact auto-installation changed to HoYoPlay
+* fixed black screen in Steam PP
+* updated dgVoodoo2 configuration interface (thanks by Htylol)
+* updated gamescope setup interface (thanks by Htylol)
+* fixed winecmd
+* fixed creation of multiple shortcuts when setting up a prefix backup
+* fixed auto-installation of World of Sea Battle
+* minor improvements and optimizations (thanks to Boria138 and Htylol)
+
+This is the current extracted information for future recorded info 
