@@ -1,0 +1,19 @@
+Steamworks SDK
+
+The Software Development Kit known as the SDK in Steam that helps users see some of the features of the game that is a basic design
+that helps allow uploading desired information about the game. 
+
+List of some features
+
+1. glmgr - The term "glmgr" does not have a current definition that is only referenced as the "ToGL" tool that is possibly seen
+as the toggle mechanism inside that communicates between DirectX to OpenGL that can be seen in repo:ValveSoftware/ToGL 
+
+2. public/steam - The Steamworks API official support is C++
+
+3. redistributable_bin - Windows, macOS, and Linux are the 3 redistributable files that can be placed into folders of your choice,
+choosing what computer redistributable file is suggested to choose the above device you own for relevant files to be placed into
+your folder
+
+4. Steamworks API Application - requirements (Visual Studio 2005 or newer, DirectX SDK, and Steamworks SDK most current file)
+
+*more information will be written later as this is a good template for myself and others while developing the game 
