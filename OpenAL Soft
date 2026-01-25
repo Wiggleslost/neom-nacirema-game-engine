@@ -953,3 +953,15 @@ This is the current extracted information for future recorded info
 depending upon what company users may consider deleting every game in order to create an original game, the existing game library 
 is thought to not properly work and after your game is released, the software is at user risk of possibly having multiple files
 of the same file from downloading again
+
+*The OpenAL most likely refers to the Audio Library (AL) in the system, users will want to be careful about what information is read
+on another website about what is actually needed to download for the library to be updated, the information above is good information;
+however official information about which downloadable files will help develop your music atmosphere in the scenes you create in your
+game, the above information is about multiple games, in here you will want to study about the future music you hear in Nacirema for 
+the purpose of understanding the game dynamics of where the audio library is located in what folder for the purpose of finding music
+files if a scene in the game is producing unwanted sounds in your game play, good study if one person does not understand, another can
+step inside the game and fix the issue of the game file that is the problem, the above information is good; however solid evidence is
+needed for the assumed process of component in the software is a working mechanism that produces the networking process from the assumed
+path that goes from DirectX to opening the Audio Library. DirectX is not known yet as the tool used for communicating the ToAl switch to 
+open the libary as this is just pre-liminary information for solid software development for the game engine. The ins and outs of the 
+software must be known just in case Steam needs build new software and official information about the game engine
