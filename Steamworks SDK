@@ -21,4 +21,31 @@ Tools
 
 1. ContentBuilder - Uploading content into game SCS
 
-2. *more info written later
+2. ContentServer - Local Content Server (LCS) is a server like Apache or nginx only deal with depot content that you will want 
+to have another server such as Mongoose that is prebuilt in the most current SDK
+
+3. drm - Digital Rights Management (drm) has been called a wrapper in Steam for the protection of a game that verifies the 
+ownership and makes sure that the game will successfuly launch - drm is a protocol used by Steam that codes information that
+will make a game successful and an obligation from many parties
+
+4. goldmaster - Goldmaster is a basic internal and external disc for both projects if you wish to sell a Compact Disc or just
+complete an Online Disc for launching your game
+
+5. linux - Steam for Linux is available for users that wish to port game information into Steam from Linux, the information is
+meant for users that wish to contribute from Linux into Steam. The only reason to use Linux is to produce for the game in Steam.
+The available Linux opportunities within Steam are fun using Linux that is the purpose of understanding where the product came
+from when multiple platforms use the game. Users are required to use Steam products if developing outside any Steam device if 
+desiring to use Linux on a PC or macOS, the purpose using a device for Steam is attempting to bring back life into Steam. The basic
+thing is do not go above Steam because the company is the best that has made many wonderful projects through Linux and the information
+has to come back to Steam
+
+6. ContentPrep.zip - The content prep file is discouraged to be used if found by a user, the software team has deemed something
+about the prep file not accepted upon using in Steam, so the basic thing is not using the prep file if you know anything about
+the prep file
+
+7. SteamPipeGUI.zip - SteamPipe GUI Tool (SGT) is a tool that is helpful with creating config files and upload builds
+
+The Software Development Kit is one of the principle concepts that are used for the game and building upon the game can build
+upon lives that play the game, getting involved with the game is easy, choosing one part of the kit is easy to study, pick one
+of the studies inside here and you will become the master of the individual study in the kit, an important step for every team
+that will grow from learning about one aspect of the game
