@@ -20,3 +20,33 @@ path seen for what makes the engine run such as the above tool called Copilot
 I do not know if a picture can be inserted here later; however will write down an example scripting code at a later time for an example to be
 learned just in case the language has to be known for the team to reinsert scripting information, you never know if a crash will occur in a 
 program, so examples are helpful studying the engine for a successful first game and future games in the series 
+
+Node example 1:
+
+extends Node3D
+
+const SPEED = 75
+var number = SPEED
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	# Print the value to the Output window of the editor
+	print(number)
+	number = 86
+	print(number)
+
+The above example was copied from a 2D perspective, the print aspect in the scripting language is misunderstood what "print" is the 
+desired outcome for a node to produce within a character or object in the game. The assumption is that the variable number will produce the desired
+speed of the object moving in the game that you and I will have to play around with if you have never played inside an engine, the printing 
+of a code is seen as publishing a command inside the engine for what is trying to be accomplished, the print number is also currently 
+misunderstood if the print number is object desired to print the effect or if the print number is the number of how many times a user has 
+printed a number before in the game. The 3D node example is used because the game is a potential 3D game that I have no idea what 2D or 3D means
+in relation to a screen, the important step is learning how the Nacirema characters move or what movement is seen in the game if a player is 
+wanting to see how the movements are produced for the characters that most players will just want to play the game rather than know the inside
+of the engine
+
+# Called when the node enters the scene tree for the first time.
+
+The above code might not need to be copied into the engine from information learned from gdscript for the purpose of starting to learn about 
+the Godot Engine as there are tons of information available about the engine, so hopefully this helps you out if want to learn more about the 
+scripting language used as practice makes perfect, the information in here is just beginning information about the Game of Neom
