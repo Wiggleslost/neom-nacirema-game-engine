@@ -1,0 +1,22 @@
+GDScript
+
+GDScript is the main scripting language for the Godot Engine that appears to the engine that will be used for the Nacirema engine currently
+as the unofficial engine for the first game. The engine is a really good engine that is known to be developed by Juan Linietsky and Ariel Manzur
+
+The scripting language is similar to Python that all scripting languages appear complex, so learning a scripting language is fun to learn from
+an engine that a game is using a specific game engine. The multiple codes involved with producing the desired commands or effects in a game
+such as Nacirema is with the Node type development inside the Godot Engine. The Node code is a funny term and easy to understand when you see
+the node functionality in the program. The nodes are a basic circular design that have lines that connect the dots for the functionality of
+a desired position of an object in the game
+
+Copilot is a basic extension here in GitHub that is a blessing for future developers to build upon a name list as that was done earlier with
+success of over 1000 characters names now available for the game. Copilot is a different part of the game with script that has been formulated
+for calculating different names or ideas that a team may want to consider in their field of study. 
+
+The scripting languages available also in the Godot Engine are GDScript, C#, and C++ in a GDExtension that players will want to concentrate 
+on GDScript because that is the main language for the Godot Engine, makes more sense to study GDScript specifically because that is the normal
+path seen for what makes the engine run such as the above tool called Copilot
+
+I do not know if a picture can be inserted here later; however will write down an example scripting code at a later time for an example to be
+learned just in case the language has to be known for the team to reinsert scripting information, you never know if a crash will occur in a 
+program, so examples are helpful studying the engine for a successful first game and future games in the series
