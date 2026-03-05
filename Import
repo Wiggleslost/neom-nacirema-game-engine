@@ -1,0 +1,17 @@
+Import
+
+The aspect of an import tool in a program is important just as much as an export tool is to me regarding downloading and uploading files that are not really available due to
+multiple reasons such as privacy or developer concerns regarding who is downloading information; however the import is being studied further because I have gone through 3 different
+engines in the recent past that not everything is available in an engine, possibly not noticeable or not available as a tool
+
+Godot has an import tool that I am not seeing where the files can be placed, so file study will be the direction taken to solving the problem that the engine may have had issues
+with the engine not having the proper files placed in an operating system. The Godot code is usually developed with lowercase letters; however that is just the theory that the
+engine only uses lowercase letters hence the word case-sensitive, having upper and lowercase letters are a chore, the engine could have been developed with all uppercase letters, 
+engine is only seen to save proper information with lowercase letters
+
+The file folder system can be valuable for later study with importing files into the engine as not every computerized system can use an exe file such as Windows for example. 
+Microsoft operating systems versus Chromebook OS can improve understanding for users that are trying to run the engine. The operating system in Chromebook is seen as thinner 
+lines rather than operating system in Microsoft. Chromebook can use Godot; however not every file can be executed like in a regular operating system in Microsoft. The problem
+is that some things work in Chromebook whereas in Microsoft the files will not work, go figure when you buy a computer, you expect a file to run or a zip to unfold in an 
+operating system and this leads into studying what you have as a device, what operating system you are working with, you will not want to run multiple computers, the study
+about importing files into a device
